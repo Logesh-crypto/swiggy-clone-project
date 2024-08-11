@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWIGGY</title>
+    <link rel="stylesheet"  href="swiggy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body id="body">
+<div class="header" id="header">
+
+    <div class="img"> 
+        <img src="images/swiggy.png" alt="swiggy icons">
+        <div class="a t" >   
+            <span>Location</span><small id="yourlocation"> </small>
+            <label for="menu-toggle" class="menu-toggle-label"></label>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">        
+        </div>
+    </div>
+
+    <div class="parent">
+        <div class="container-ul">    
+            <ul>
+                <li class="li1"><a href="#"><i class="fa-solid fa-building"></i>Corporate</a></li>
+                <li class="li2"><a href="#"><i class="fa-solid fa-tag"></i>Offers<sup class="s">NEW</sup></a></li>
+                <li class="li3"><a href="#"><i class="fa-solid fa-circle-info"></i>Help</a></li>
+                <li class="li4"><a href="#"><i class="fa-solid fa-right-to-bracket"></i>Sign up</a></li>
+                <li class="li5"><a href="cartpage/index.html"><i class="fa-solid fa-cart-plus"></i>Cart<sup id="a"></sup></a></li>
+            </ul>
+        </div>  
+    </div>
+</div> 
+
+<div class="mind">
+    <h1>What's on your mind?</h1>
+
+</div>
+ <br><br>
+<br><br><br>
+<div class="parent-image" id="header2">
+    <div class="child-image">
+
+        <ul class="list">
+            
+               
+            <li><img src="images/biryani.png" class="slide"></li>
+            <li><img src="images/momos.png" class="slide"></li>
+            <li><img src="images/pizzas.png" class="slide"></li>
+            <li><img src="images/rolls.png" class="slide"> </li>
+            <li><img src="images/samosa.png" class="slide"></li>
+            <li><img src="images/shawarma.png" class="slide"></li>
+            <li><img src="images/bonda.png" class="slide"></li>
+            <li><img src="images/cakes.png" class="slide"></li>
+            <li><img src="images/vada.png" class="slide"></li>
+            <li><img src="images/idly.png" class="slide"></li>
+            <li><img src="images/poori.png" class="slide"></li>
+            <li><img src="images/kosa.png" class="slide"></li>
+            <li><img src="images/appam.png" class="slide"></li>
+            <li><img src="images/parotta.png" class="slide"></li>
+            <li><img src="images/poori.png" class="slide"></li>
+            <li><img src="images/pongal.png" class="slide"></li>
+            <li><img src="images/rolls.png" class="slide"></li>
+            <li><img src="images/pureveg.png" class="slide"></li>
+            <li><img src="images/coffee.png" class="slide"></li>
+            <li><img src="images/tea.png" class="slide"></li>
+            <li><img src="images/uttappam.png" class="slide"></li>
+            <li><img src="images/cutlet.png" class="slide"></li>
+            <li><img src="images/puttu.png" class="slide"></li>
+            <li><img src="images/pakada.png" class="slide"></li>
+            <li><img src="images/omelette.png" class="slide"></li>
+            <li><img src="images/lassi.png" class="slide"></li>
+            <li><img src="images/khichdi.png" class="slide"></li>
+
+        </ul>
+
+    </div>
+
+    <div class="nav">
+        <button onclick="goPrev()" id="left">
+            <i class="fa-solid fa-arrow-left" style="color: #171718;"></i>
+        </button>
+        <button onclick="goNext()" id="right">
+            <i class="fa-solid fa-arrow-right" style="color: #323233;"></i>
+        </button>
+    </div>
+</div>
+<div class="top">
+    <h1>Top Restaurant in <span id="location"> </span></h1>
+</div>
+<div class="parent-restaurant" id="header3">
+    <div class="child-restaurant">
+        <ul>
+            <li class="fig"><img src="restuarant-image/alakar.png" class="imageslide" > <figcaption>IDLY 20% OFF UPTO 99</figcaption></li>
+            <li class="fig"><img src="restuarant-image/brooklyn.png" class="imageslide"><figcaption>FAMILY ICECREAM</figcaption></li>
+            <li class="fig"><img src="restuarant-image/burge.png" class="imageslide"><figcaption>BURGER KING</figcaption></li>
+            <li class="fig"><img src="restuarant-image/chai_waale.png"  class="imageslide"><figcaption>CHAI WALLE</figcaption></li>
+            <li class="fig"><img src="restuarant-image/darling_aradhana.png" class="imageslide"><figcaption>DARLING FOOD</figcaption></li>
+            <li class="fig"><img src="restuarant-image/darling.png"class="imageslide"><figcaption>DARLING LUNCH</figcaption></li>
+            <li class="fig"><img src="restuarant-image/french.png" class="imageslide"><figcaption>FAMILY ICECREAM</figcaption></li>
+            <li class="fig"><img src="restuarant-image/mcdonald.png" class="imageslide"><figcaption>McDONALS</figcaption></li>
+            <li class="fig"><img src="restuarant-image/perambut.png" class="imageslide"><figcaption>LUNCH</figcaption></li>
+            <li class="fig"><img src="restuarant-image/sangeetha.png" class="imageslide"><figcaption>LUNCH TIME</figcaption></li>
+            <li class="fig"><img src="restuarant-image/starbucks.png" class="imageslide"><figcaption>STARBUCKS COFFEE</figcaption></li>
+            <li class="fig"><img src="restuarant-image/subway.png" class="imageslide"><figcaption>SUBWAY TIME</figcaption></li>
+            <li class="fig"><img src="restuarant-image/vellore_kichen.png" class="imageslide"><figcaption>VELLORE KITCHEN</figcaption></li>
+        </ul>
+    </div>
+    <div class="btn-parent">
+        <button onclick="imageleft()">
+            <i class="fa-solid fa-arrow-left" style="color: #171718;"></i>
+        </button>
+        <button onclick="imageright()" id="btnright"><i class="fa-solid fa-arrow-right" style="color: #171718;"></i>
+        </button>
+    </div>
+</div>
+
+<div class="parent-food">
+    <div class="child-food">
+        <h2>Order your food <i class="fa-solid fa-burger"></i></h2>
+    </div>
+</div>
+
+
+<div class="child-food-order">
+<!-- first target -->
+        <div class="item">
+            <img src="order-food/biryani.png">
+            <b class="foodname" data-id="1">Biryani  <i class="fa-solid fa-star" style="color: #274e1c;"  ><small>4.6</small></i></b> 
+            <p>20 mins - 30 mins</p>
+            <p class="number" data-id="1">123.00</p>
+            <button class="addbtn" data-image="biryani.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+            
+                <span class="add">Add Cart</span>
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="order-food/brownie.png">
+            <b class="foodname" data-id="2">Minus 30  <i class="fa-solid fa-star" style="color: #274e1c;"><small>3.0</small></i></b> 
+            <p>20 mins - 30 mins</p>
+            <p class="number" data-id="2">90.00</p>
+            <button  class="addbtn" data-image="brownie.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+                <span class="add">Add Cart</span>
+            </button>
+        </div>  
+
+        <div class="item">
+            <img src="order-food/coffe_house.png">
+            <b class="foodname" data-id="3">Madras Coffee  <i class="fa-solid fa-star" style="color: #274e1c;"><small>3.9</small></i></b> 
+            <p>20 mins - 30 mins</p>
+            <p class="number" data-id="3">100.00</p>
+            <button class="addbtn" data-image="coffe_house.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+                <span class="add">Add Cart</span>
+            </button>
+
+        </div>   
+
+        <div class="item">
+            <img src="order-food/creams.png">
+            <b class="foodname" data-id="4">Cake  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.9</small></i></b> 
+            <p>20 mins - 30 mins</p>
+            <p class="number" data-id="4">150.00</p>
+
+            <button class="addbtn" data-image="creams.png"> 
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+            </button>
+
+        </div>
+        
+        <div class="item">
+            <img src="order-food/ice.png">
+            <b class="foodname" data-id="5">Nota Ice-cream  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.0</small></i></b> 
+            <p>20 mins - 35 mins</p>
+            <p class="number" data-id="5">50.00</p>
+
+            <button class="addbtn" data-image="ice.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+            </button>
+
+        </div>
+
+        <div class="item">
+            <img src="order-food/kelab.png">
+            <b class="foodname" data-id="6">Kazim's Kebab  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.6</small></i></b> 
+            <p>15 mins - 30 mins</p>
+            <p class="number" data-id="6">101.00</p>
+            <button class="addbtn"  data-image="kelab.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+                <span class="add">Add Cart</span>
+            </button>
+        </div>
+        
+        <div class="item">
+            <img src="order-food/sweet_spot.png">
+            <b class="foodname" data-id="7">Sweet Cakes  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.8</small></i></b> 
+            <p>5 mins - 10 mins</p>
+            <p class="number" data-id="7">100.00</p>
+            <button data-image="sweet_spot.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="order-food/pizza.png">
+            <b class="foodname" data-id="8">Spicy Pizza <i class="fa-solid fa-star" style="color: #274e1c;"><small>3.6</small></i></b> 
+            <p>30 mins - 35 mins</p>
+            <p class="number" data-id="8">110.00</p>
+            <button class="addbtn" data-image="pizza.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+                <span class="add">Add Cart</span> 
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="order-food/wedding_biryani.png">
+            <b class="foodname" data-id="9">Biryani  <i class="fa-solid fa-star" style="color: #274e1c;">   <small>4.0</small></i></b> 
+            <p>20 mins - 30 mins</p>
+            <p class="number" data-id="9">150.00</p>
+
+            <button class="addbtn" data-image="wedding_biryani.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span>
+                <span class="add">Add Cart</span>
+
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="order-food/kakada.png">
+            <b class="foodname" data-id="10">Poori  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.6</small></i></b> 
+            <p>10 mins - 20 mins</p>
+            <p class="number" data-id="9">99.00</p>
+            <button class="addbtn" data-image="kakada.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="order-food/superstart_pizza.png">
+            <b class="foodname" data-id="10">Pizza  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.5</small></i></b> 
+            <p>20 mins - 25 mins</p>
+            <p class="number" data-id="10">150.00</p>
+
+            <button class="addbtn" data-image="superstart_pizza.png">
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+            </button>
+
+             
+        </div>
+
+        <div class="item">
+            <img src="order-food/chennai_rawther.png">
+            <b class="foodname" data-id="11">Fried Rice  <i class="fa-solid fa-star" style="color: #274e1c;"><small>4.2</small></i></b> 
+            <p>10 mins - 30 mins</p>
+            <p class="number" data-id="11">70.00</p>
+            <button class="addbtn" data-image="chennai_rawther.png">  
+                <span class="cart anothercart"><i class="fa-solid fa-cart-plus"></i></span> 
+                <span class="add">Add Cart</span>
+
+            </button>
+
+        </div>
+</div>
+<div>
+    
+<div class="slide-navbar" id="slide-navbar">
+    <input type="text" placeholder="Your location"  id ="searchinput" onkeyup="filterItems(event)" >
+    <button onclick="buttonclicked()">GO</button>
+    <ul id="itemlist">
+        <li class="item">vellore</li>
+        <li class="item">coimbatore</li>
+        <li class="item">goa</li>
+        <li class="item">bengaluru</li>
+        <li class="item">krishnagiri</li>
+        <li class="item">kachipuram</li>
+        <li class="item">theni</li>
+
+        <li class="item">chennai</li>
+        <li class="item">ooty</li>
+        <li class="item">tiruppur</li>
+        <li class="item">thirunelveli</li>
+        <li class="item">salem</li>
+        <li class="item">arcot</li>
+        <li class="item">madurai</li>
+        <li class="item">ariyalur</li>
+        <li class="item">chengalpattu</li>
+        <li class="item">dharmapuri</li>
+        <li class="item">karur</li>
+        <li class="item">nagercoil</li>
+        <li class="item">ramanathapuram</li>
+        <li class="item">ranipet</li>
+        <li class="item">katpadi</li>
+        <li class="item">theni</li>
+        <li class="item">karur</li>
+        <li class="item">thoothukudi</li>
+        <li class="item">adyar</li>
+        <li class="item">alandur</li>
+        <li class="item">ambattur</li>
+        <li class="item">annanur</li>
+        <li class="item">avadi</li>
+        <li class="item">chrompet</li>
+        <li class="item">egmore</li>
+        <li class="item">guindy</li>
+        <li class="item">IIT madras</li>
+        <li class="item">kovur</li>
+        <li class="item">mount road</li>
+        <li class="item">otteri</li>
+        <li class="item">porur</li>
+        <li class="item">tirumani</li>
+        <li class="item">t nagar</li>
+        <li class="item">adambakkam</li>
+        <li class="item">IIT madras</li>
+        <li class="item">park town</li>
+        <li class="item">kancheepuram</li>
+    </ul>
+        
+</div>
+</div>
+
+<div>
+    <button class="viewcart" id="viewCart">view cart</button>
+</div>
+<script src="javascript.js">
+
+</script>
+</body>
+</html>
