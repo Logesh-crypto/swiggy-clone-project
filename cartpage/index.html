@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cartpage.css">
+
+    
+</head>
+<body>
+
+    <div class="video">
+        <video autoplay loop muted  class="backgroundivideo">
+            <source src="../order-food/foodvide.mp4" type="video/mp4">
+        </video>
+    </div>
+<div class="parent">
+    <div class="child">
+        <h1>Place Your Order</h1>
+    </div>
+    <div class="div">
+
+        <div class="place">
+            <ul id="cart-list" class="contain">
+                <p id="cart-number"></p>
+            </ul>
+
+            <div class="left">
+                <button onclick="left()">Left</button>
+                <button onclick="right()">right</button>
+            </div>
+        </div>
+    </div>
+    <div class="t">
+        
+        <p>Bill Detaisl:</p><br>
+        <p>Item Total          <b id="total"></b></p>
+        <p >Delivery charge : <span id="delivery">50</span></p>
+        <p>Total Charge is :  <span id="totaldeliverycharge"></spam> </p>
+        <button onclick="ordernow()">Order</button>
+
+    </div>
+
+
+    <div class="container">
+        <button id="clearCart">Clear Cart</button>
+        <button id="backToMain" onclick="backToMain()">Back to Main Page</button>
+    </div>
+</div>
+
+<div class="navbar">
+    <img src="https://img.freepik.com/premium-vector/online-delivery-fast-respond-delivery-package-shipping-mobile-online-order-tracking-with-map_107661-495.jpg?w=740">
+    <div>
+           <h2>Your Order is Placed</h2>
+        </div>
+ 
+    <p>You will get in few minutes....</p>
+    <p>Redirecting to ..<span class="Redirecting"></span></p>
+</div>
+
+
+    <script src="cartpage.js">
+        
+    </script>
+</body>
+</html>
